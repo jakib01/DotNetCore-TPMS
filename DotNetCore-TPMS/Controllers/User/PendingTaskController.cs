@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace DotNetCore_TPMS.Controllers
+namespace DotNetCore_TPMS.Controllers.User
 {
-    public class DashboardController : Controller
+    public class PendingTaskController : Controller
     {
         public IActionResult Index()
         {
